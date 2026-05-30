@@ -263,6 +263,7 @@ func (p *ProviderConfig) ToProvider(openBrowser bool) (providers.OpenIdProvider,
 		opts.PromptType = p.Prompt
 		opts.AccessType = p.AccessType
 		opts.RedirectURIs = p.RedirectURIs
+		opts.DeviceFlow = p.DeviceFlow
 		opts.RemoteRedirectURI = p.RemoteRedirectURI
 		opts.GQSign = false
 		if p.hasScopes() {
