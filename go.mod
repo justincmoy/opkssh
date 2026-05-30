@@ -17,7 +17,7 @@ require (
 	github.com/thediveo/enumflag/v2 v2.0.7
 	github.com/zitadel/oidc/v3 v3.45.1
 	golang.org/x/crypto v0.46.0
-	golang.org/x/mod v0.29.0
+	golang.org/x/mod v0.31.0
 	golang.org/x/term v0.38.0
 )
 
@@ -111,7 +111,7 @@ require (
 	github.com/spf13/afero v1.15.0
 	golang.org/x/exp v0.0.0-20251219203646-944ab1f22d93
 	golang.org/x/oauth2 v0.34.0 // indirect
-	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/sys v0.39.0
 	golang.org/x/text v0.32.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1
 )
